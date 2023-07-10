@@ -1,4 +1,14 @@
 <h1>Hola Bupunku esta es mi : {{ title }}</h1>
 <button (click)="changetitle()">Change</button>
 
-<app-product title= "Este es el Titulo" ></app-product>
+<ul>
+    <li>
+       <a routerLink="/products">products</a> 
+
+    </li>
+    <li>
+        <a routerLink="/contact">contact</a> 
+    </li>
+</ul>
+
+<router-outlet></router-outlet>
